@@ -35,7 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Dual-direction 16-byte ping/pong heartbeats with jittered exponential backoff and sleep/wake detection.
   - Headless PTY ring buffer session persistence preventing mobile disconnect command termination.
   - Non-blocking `O_NONBLOCK` hardware HAL failure recovery (`DEVICE_RESOURCE_LOCKED_LOCALLY`).
-  - Raspberry Pi SD-card endurance throttling via pre-allocated in-memory buffer.
+  - Embedded ARM and flash memory endurance throttling via pre-allocated in-memory buffer.
   - Atomic GPG-verified self-updating (`talos update`).
   - Multi-tenant vanity subdomain reserved denylist and sliding token-bucket rate limits.
 - **Sovereign Fleet Moat**:
